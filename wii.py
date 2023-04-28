@@ -141,7 +141,7 @@ class game():
     def welcome(self):
         self.MENU_TEXT = self.NONE
         while self.MENU_TEXT != "PLACEHOLDER":
-            self.MENU = self.LIGHTRED + "1. Wii Shop | " + self.LIGHTMAGENTA + "2. PrimeDev Studios | " + self.GOLD + "3. Information | " + self.LIGHTRED + "4. Wii News/Updates" + self.LIGHTBLACK + "5. COMING SOON!"
+            self.MENU = self.LIGHTRED + "1. Wii Shop | " + self.LIGHTMAGENTA + "2. PrimeDev Studios | " + self.GOLD + "3. Information | " + self.LIGHTRED + "4. Wii News/Updates | " + self.LIGHTBLACK + "5. COMING SOON!"
             self.PRINT(self.MENU)
             self.MENU_TEXT = self.LIGHTRED + "Welcome to Wii Menu! " + self.LIGHTMAGENTA + "Select where you'd like to go. "
             self.WELCOME_INPUT = self.INPUT(self.MENU_TEXT)

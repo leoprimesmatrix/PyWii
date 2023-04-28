@@ -189,10 +189,10 @@ class game():
         self.PRINT = print
         self.INPUT = input
         self.MUSIC_PLAY = True
-        self.WII_MENU_MUSIC = pygame.mixer.Sound("Wii/wii_shop_music.wav")
-        self.WII_NOTIFICATION = pygame.mixer.Sound("Wii/wii_message.wav")
-        self.WII_SELECT = pygame.mixer.Sound("Wii/select.wav")
-        self.WII_DECISION = pygame.mixer.Sound("Wii/decision.wav")
+        self.WII_MENU_MUSIC = pygame.mixer.Sound("Wii_Config/wii_shop_music.wav")
+        self.WII_NOTIFICATION = pygame.mixer.Sound("Wii_Config/wii_message.wav")
+        self.WII_SELECT = pygame.mixer.Sound("Wii_Config/select.wav")
+        self.WII_DECISION = pygame.mixer.Sound("Wii_Config/decision.wav")
         self.WII_MENU_MUSIC.play()
         self.welcome()
 
